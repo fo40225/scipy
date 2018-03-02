@@ -3,11 +3,6 @@
 #include <stdio.h>
 
 
-#ifdef _MSC_VER
-#pragma fenv_access (on)
-#endif
-
-
 static char get_fpu_mode_doc[] = (
     "get_fpu_mode()\n"
     "\n"
